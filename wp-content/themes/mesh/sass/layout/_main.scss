@@ -1,0 +1,72 @@
+.hero {
+  height: 665px;
+  overflow: hidden;
+
+  @include mq($mobile-landscape-width, $max) {
+    height: 500px;
+  }
+}
+
+.why {
+  height: 1500px;
+
+  @include mq($desktop-width, $max) {
+    height: 1800px;
+  }
+
+  @include mq($tablet-width, $max) {
+    height: 1800px;
+  }
+
+  @include mq($mobile-landscape-width, $max) {
+    height: 2300px;
+  }
+}
+
+.how {
+  height: 1400px;
+  padding: 70px 0;
+
+  @include mq($desktop-width, $max) {
+    height: 1600px;
+  }
+
+  @include mq($tablet-width, $max) {
+    height: 1900px;
+  }
+
+  @include mq($mobile-landscape-width, $max) {
+    height: 2400px;
+  }
+}
+
+.where {
+  height: 800px;
+
+
+
+  @include mq($tablet-width, $max) {
+    height: 900px;
+  }
+  @include mq($mobile-landscape-width, $max) {
+    height: 1000px;
+  }
+
+}
+
+.contact {
+  height: 900px;
+
+  @include mq($mobile-landscape-width, $max) {
+    height: 1000px;
+  }
+}
+
+.become {
+  // height: 850px;
+  height: 130px;
+  padding-top: 70px;
+  background: white;
+  margin-bottom: 70px;
+
+}
